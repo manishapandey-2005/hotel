@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TastyBites Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">TastyBites</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to TastyBites</h2>
+      <p>Delicious meals made with love.</p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="item">
+        <h3>Margherita Pizza</h3>
+        <p>Classic cheese and tomato</p>
+        <span>$12</span>
+      </div>
+      <div class="item">
+        <h3>Veggie Burger</h3>
+        <p>Fresh veggies with homemade patty</p>
+        <span>$10</span>
+      </div>
+      <div class="item">
+        <h3>Pasta Alfredo</h3>
+        <p>Creamy white sauce pasta</p>
+        <span>$14</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>
+      TastyBites is a family-owned restaurant offering fresh, locally-sourced food prepared with love. Our goal is to serve delicious meals that make you feel at home.
+    </p>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Email: manishapandey@gmail.com</p>
+    <p>Phone: 8308902069</p>
+  </section>
+
+
+
+  <section id="reservation" class="reservation-section">
+    <h2>Make a Reservation</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="date" required />
+      <input type="time" required />
+      <input type="number" placeholder="Number of Guests" required />
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+  
+  <section id="gallery" class="gallery-section">
+    <h2>Our Gallery</h2>
+    <div class="gallery-grid">
+      <img src="snacks.png" alt="Dish 1" />
+      <img src="burgur.webp" alt="Dish 2" />
+      <img src="biryani.jpg" alt="Dish 3" />
+      <img src="snacks.png" alt="Dish 4" />
+    </div>
+  </section>
+  
+  <section id="location" class="map-section">
+    <h2>Find Us</h2>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24153.191527251853!2d-74.0059731!3d40.7127755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259af18d1a343%3A0x7e9a708fc912c5b5!2sNew%20York%20City!5e0!3m2!1sen!2sus!4v1689999999999"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Manisha Pandey. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
